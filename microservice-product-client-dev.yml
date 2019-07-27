@@ -8,4 +8,4 @@ spring:
 
 microservice-product-server:
   ribbon:
-    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
