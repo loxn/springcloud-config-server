@@ -5,12 +5,6 @@ server:
 spring:
   application:
     name: microservice-product-client
-    
-eureka:
-  client:
-    register-with-eureka: false
-    service-url:
-      defaultZone: http://eureka7001:7001/eureka/
 
 microservice-product-server:
   ribbon:
