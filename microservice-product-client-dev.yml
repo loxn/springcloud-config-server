@@ -9,7 +9,3 @@ spring:
 microservice-product-server:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule
-
-logging:
-  level:
-    root: debug
