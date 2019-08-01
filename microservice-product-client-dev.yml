@@ -2,10 +2,6 @@
 server:
   port: 80
   
-spring:
-  application:
-    name: microservice-product-client
-
 microservice-product-server:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule
